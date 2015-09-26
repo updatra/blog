@@ -35,7 +35,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     []
+exclude:     ['vendor', 'scripts']
 timezone:    "America/New_York"
 
 # Show future posts

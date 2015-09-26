@@ -6,6 +6,7 @@ dependencies:
         - bundle install
 test:
   post:
+      - chmod +x ./scripts/cibuild
       - ./scripts/cibuild
 deployment:
    production: # just a label; label names are completely up to you

@@ -11,6 +11,7 @@ author:
   name: Mike Seid
   twitter: mbseid
   bio: Founder
+  link: http://blog.seid.io
 ---
 Notifications are the easiest way to increase your users engagement and communicate important information to your users. Even with the best design in the world, forcing a user to remember to anything is a fool's errand. Delivering important information is an easy way to engage with you users and ensure that they have the information they need to excel. Users feel extremely empowered when they know exactly what is going on, and making it easy for users to find this information is critical. 
 

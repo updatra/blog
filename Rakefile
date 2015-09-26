@@ -3,6 +3,8 @@ require "tmpdir"
 
 require "bundler/setup"
 require "jekyll"
+require 'html/proofer'
+
 
 
 # Change your GitHub reponame eg. "kippt/jekyll-incorporated"
@@ -31,5 +33,9 @@ namespace :site do
       system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
       system "git push origin master:refs/heads/gh-pages --force"
     end
+  end
+
+  task :test => [:generate] do
+    HTML::Proofer.new("./_site").run
   end
 end

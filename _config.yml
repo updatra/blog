@@ -35,7 +35,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     ['vendor', 'scripts']
+exclude:     ['vendor', 'scripts', "s3_website.yml", "Rakefile", "LICENSE", "Gemfile", "Gemfile.lock", "README.md"]
 timezone:    "America/New_York"
 
 # Show future posts

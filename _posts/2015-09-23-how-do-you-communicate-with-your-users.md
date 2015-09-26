@@ -11,6 +11,7 @@ author:
   name: Mike Seid
   twitter: mbseid
   bio: Founder
+  link: http://blog.seid.io
 ---
 
 Congrats, you have built something awesome. People are signing up and using your application. After talking with a few of your users, you have learned their desire for a new feature and are now updating your app. How do you let your users know?

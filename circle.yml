@@ -1,0 +1,13 @@
+dependencies:
+    override:
+        - bundle install
+
+test:
+	post:
+	    - ./scripts/cibuild
+
+deployment:
+   production: # just a label; label names are completely up to you
+    branch: master
+    commands:
+      - bundle exec s3_website push

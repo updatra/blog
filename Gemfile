@@ -10,3 +10,4 @@ gem 'github-pages'
 gem 's3_website'
 
 gem "html-proofer"
+gem "travis"

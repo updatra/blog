@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Deliver Bad News to Your Users? Three Steps for Success
+title: Three Steps to Reduce Impact When Delivering Bad News to Your Users
 subtitle: "How do you tell your user you had downtime?" 
 
 date: 2015-09-30
